@@ -1,12 +1,7 @@
 name: Build and Release APK
 
 on:
-  push:
-    branches:
-      - main # 触发分支，根据实际情况调整
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   build:
